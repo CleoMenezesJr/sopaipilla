@@ -11,7 +11,8 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 # dnf5 install -y tmux 
-dnf5 remove -y webapp-manager brew steam lutris sunshine waydroid gnome-shell-extension*
+dnf5 remove -y webapp-manager brew steam lutris sunshine waydroid gnome-shell-extension* gnome-software ptyxis
+dnf5 install -y gnome-software
 
 # Use a COPR Example:
 #
